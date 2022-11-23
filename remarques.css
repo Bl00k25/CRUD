@@ -1,0 +1,126 @@
+@font-face 
+{
+    font-family:"BiteChocolate";
+    src: url(Fonts/BiteChocolate-2RGl.ttf);
+}
+
+@font-face 
+{
+    font-family: "Tomatoes";
+    src: url(Fonts/Tomatoes-O8L8.ttf);
+}
+
+@font-face 
+{
+    font-family: "Bulgatti";
+    src: url(Fonts/Bulgatti-xgMV.ttf);
+}
+
+@font-face 
+{
+    font-family:"timeburner";
+    src: url(Fonts/Timeburner-xJB8.ttf);
+}
+
+button
+{
+    width: 100px;
+    height: 60px;
+    border: 1px  darkgrey;
+    background-image:linear-gradient(lightseagreen,burlywood);
+    margin-top:10px ;
+    transition-property: transform !important;
+    transition-duration: 500ms !important;
+}
+
+button:hover
+{
+    box-shadow: 2px 3px 5px black;
+    margin-top: 1em;
+    transform: rotateX(360deg) !important;
+}
+
+a
+{
+    overflow: auto;
+    color: black;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color: brown;
+}
+
+body
+{
+    font-family: "timeburner",sans-serif;
+    background-image: url(html/photos/BackgroundHibou.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+header
+{
+    color:rgb(8, 82, 8);
+    border-bottom: 5px ;
+    text-align: center;
+    font-family: "BiteChocolate",cursive,sans-serif;
+}
+
+em
+{
+    color: brown;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+form
+{
+    width: 600px;
+    border:2px lightseagreen inset;
+    border-radius:1em;
+    margin: 0 auto;
+    padding: 1em;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+#centerPage
+{
+    width: 600px;
+    border:2px lightseagreen inset;
+    border-radius:1em;
+    margin: 10em;
+    padding: 1em;
+    align-content: center;
+    background-color: whitesmoke;
+}
+
+textarea
+{
+    resize: y;
+    overflow-y: auto;
+}
+
+.copyright
+{
+    text-align: center;
+    font-size:xx-small ;
+}
+
+@media screen and (max-width:600px) 
+{
+    form
+    {
+        width: auto;
+    }
+
+    button:focus
+    {
+        box-shadow: 2px 3px 5px black;
+        margin-top: 1em;
+        transform: rotateX(360deg);
+    }
+}
